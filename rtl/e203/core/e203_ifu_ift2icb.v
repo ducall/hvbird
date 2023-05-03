@@ -187,7 +187,7 @@ module e203_ifu_ift2icb(
 //       target can read out one lane of data at one time. 
 //       For example: 
 //        * ITCM is 64bits wide SRAM, then it can read out one 
-//          aligned 64bits one time (as a lane)
+//          aligned 64bits one time (as a lane) 一次读出对齐的64bits
 //        * System Memory is 32bits wide bus, then it can read out one 
 //          aligned 32bits one time (as a lane)
 //        * ICache line is N-Bytes wide SRAM, then it can read out one 
