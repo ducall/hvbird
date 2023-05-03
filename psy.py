@@ -24,3 +24,4 @@ for line in  open("./ParticalSum.txt","r") //ParticalSum.txt为DUT打印的中�
 for i in range (56*56) :
   if(outDiff[i] !=data1[i][0]) :
     print(i,(outDiff[i] - data1[i][0]))
+    afcsv
